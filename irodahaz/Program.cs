@@ -9,9 +9,31 @@ namespace irdoahaz
 {
     class Program
     {
-        public static main()
+        static int F8(List<Iroda> i)
         {
-            var irodak = new List<Iroda>(@"..\..\..\src\irodahaz.txt");
+            var x = 
+
+            return x;
+        }
+
+        public static void Main(string[] args)
+        {
+            var irodak = new List<Iroda>();
+
+            var sr = new StreamReader(@"..\..\..\src\irodahaz.txt");
+
+            while (!sr.EndOfStream) 
+            { 
+                irodak.Add(new Iroda(sr.ReadLine()));
+            }
+
+            foreach (var i in irodak)
+            {
+                Console.WriteLine($"Kód: {i.Id}, Kezdeti év: {i.KezdetEv}, Létszám: {string.Join(" ", i.IrodaLetszam)}");
+            }
+
+            Console.WriteLine($"A legtöbb dolgozó {F8(irodak)}. emeleten van.");
+
         }
         
     }

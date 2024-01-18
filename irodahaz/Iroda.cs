@@ -18,11 +18,15 @@ namespace irodahaz
             this.Id = v[0];
             this.KezdetEv = int.Parse(v[1]);
             this.IrodaLetszam = new List<int>();
+            for (int i = 2; i < v.Length; i++)
+            {
+                this.IrodaLetszam.Add(int.Parse(v[i]));
+            }
         }
 
-        public void ToString()
+        public override string ToString()
         {
-            Console.WriteLine($"Cég kódja: {this.Id}, Cég kezdeti éve: {this.KezdetEv}, Irodák létszáma: {this.IrodaLetszam}");
+            return$"Kód: {this.Id}, Kezdeti év: {this.KezdetEv}, Irodák létszáma: {string.Join(' ', this.IrodaLetszam)}";
         }
     }
 }
