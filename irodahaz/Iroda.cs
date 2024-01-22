@@ -8,13 +8,15 @@ namespace irodahaz
 {
     internal class Iroda
     {
+        public int Sorszam { get; set; }
         public string Id { get; set; }
         public int KezdetEv { get; set; }
         public List<int> IrodaLetszam { get; set; }
 
-        public Iroda(string s)
+        public Iroda(int s, string sor)
         { 
-            var v = s.Split(' ');
+            this.Sorszam = s;
+            var v = sor.Split(' ');
             this.Id = v[0];
             this.KezdetEv = int.Parse(v[1]);
             this.IrodaLetszam = new List<int>();
