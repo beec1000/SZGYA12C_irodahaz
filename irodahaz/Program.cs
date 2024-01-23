@@ -27,6 +27,12 @@ namespace irodahaz
             return x;
         }
 
+        static IEnumerable<Iroda> F11(List<Iroda> i)
+        {
+            var x = i.Where(d => d.IrodaLetszam.Contains(0)).ToList();
+            return x;
+        }
+
         static double F12(List<Iroda> i)
         {
             var x = i.Where(d => d.Id == ("LOGMEIN")).Average(dd => dd.IrodaLetszam.Sum());
@@ -62,21 +68,22 @@ namespace irodahaz
             }
 
             Console.WriteLine("10. feladat");
-            Console.WriteLine(F10(irodak));
+            Console.WriteLine($"Ötnél többen {F10(irodak)} irodában vannak.");
 
             //11. feladat    
-            using var sw11 = new StreamWriter(@"..\..\..\src\irodahazF11.txt");
-            var f11 = irodak.Where(d => d.IrodaLetszam.Contains(0));
-            foreach (var i in f11)
+            var sw11 = new StreamWriter(@"..\..\..\src\irodahazF11.txt");
+            foreach (var i in F11(irodak))
             {
-                sw11.WriteLine($"{i.Id} {i.Sorszam}");
+                sw11.WriteLine($"{i.Id} {i.Sorszam}. Emeleten {string.Join(", ", i.IrodaLetszam)}. Irodában/Irodákban");
             }
 
             Console.WriteLine("12. feladat");
             Console.WriteLine($"Az átlagos dolgozók száma: {F12(irodak)}");
 
             //13. feladat
+            
 
+            sw11.Close();
 
         }
         
