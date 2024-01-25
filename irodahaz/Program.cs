@@ -64,7 +64,7 @@ namespace irodahaz
             }
             else
             {
-                Console.WriteLine(F9(irodak));
+                Console.WriteLine($"Az iroda kódja {F9(irodak).Id}, Iroda Sorszáma: {F9(irodak).Sorszam}.");
             }
 
             Console.WriteLine("10. feladat");
@@ -74,7 +74,7 @@ namespace irodahaz
             var sw11 = new StreamWriter(@"..\..\..\src\irodahazF11.txt");
             foreach (var i in F11(irodak))
             {
-                sw11.WriteLine($"{i.Id} {i.Sorszam}. Emeleten {string.Join(", ", i.IrodaLetszam)}. Irodában/Irodákban");
+                sw11.WriteLine($"{i.Id} {i.Sorszam}. Emeleten {string.Join(", ", i.IrodaLetszam.Where(d => d == 0).Count())}. Irodában/Irodákban");
             }
 
             Console.WriteLine("12. feladat");

@@ -1,20 +1,20 @@
-MOL 1. Emeleten 5, 2, 6, 2, 2, 0, 2, 3, 1, 1, 1, 2. Irodában/Irodákban
-EPAM 2. Emeleten 4, 5, 6, 6, 3, 2, 0, 1, 4, 5, 0, 1. Irodában/Irodákban
-HUNGAROCAD 4. Emeleten 3, 4, 6, 2, 2, 2, 1, 2, 0, 2, 0, 4. Irodában/Irodákban
-MEGATREND 5. Emeleten 3, 3, 3, 1, 5, 0, 4, 2, 0, 2, 1, 4. Irodában/Irodákban
-T-SYSTEMS 6. Emeleten 4, 3, 4, 6, 0, 1, 3, 4, 3, 0, 0, 0. Irodában/Irodákban
-SAFESOFT 7. Emeleten 5, 5, 0, 3, 1, 1, 1, 3, 3, 4, 0, 5. Irodában/Irodákban
-BINARIS-01 8. Emeleten 4, 0, 5, 5, 3, 2, 0, 1, 4, 0, 4, 4. Irodában/Irodákban
-QUENTA 9. Emeleten 0, 0, 1, 5, 6, 5, 5, 3, 5, 6, 0, 5. Irodában/Irodákban
-INSERO 10. Emeleten 5, 1, 5, 0, 4, 7, 7, 3, 2, 0, 4, 2. Irodában/Irodákban
-ATALANTA 11. Emeleten 5, 2, 2, 0, 1, 2, 0, 3, 6, 6, 4, 2. Irodában/Irodákban
-GREENFOX 14. Emeleten 0, 1, 0, 1, 2, 1, 3, 3, 2, 6, 1, 2. Irodában/Irodákban
-LOGMEIN 15. Emeleten 2, 6, 0, 2, 4, 0, 2, 1, 2, 3, 1, 2. Irodában/Irodákban
-NETACAD 16. Emeleten 6, 5, 1, 1, 4, 5, 3, 4, 2, 3, 0, 6. Irodában/Irodákban
-GOOGLE 18. Emeleten 6, 3, 1, 5, 3, 0, 6, 4, 1, 5, 1, 0. Irodában/Irodákban
-HTTP 20. Emeleten 4, 3, 3, 6, 4, 2, 6, 1, 1, 0, 1, 1. Irodában/Irodákban
-HWSW 21. Emeleten 4, 0, 4, 2, 6, 6, 3, 4, 4, 3, 3, 1. Irodában/Irodákban
-COMPUTERWORLD 22. Emeleten 2, 1, 5, 4, 4, 0, 6, 0, 6, 3, 5, 1. Irodában/Irodákban
-PCWORLD 23. Emeleten 0, 2, 5, 0, 2, 0, 0, 5, 2, 5, 4, 2. Irodában/Irodákban
-LINKEDIN 24. Emeleten 3, 6, 4, 5, 1, 0, 6, 6, 3, 2, 6, 0. Irodában/Irodákban
-MICROSOFT 25. Emeleten 0, 1, 0, 0, 1, 2, 3, 0, 3, 2, 3, 1. Irodában/Irodákban
+MOL 1. Emeleten 1. Irodában/Irodákban
+EPAM 2. Emeleten 2. Irodában/Irodákban
+HUNGAROCAD 4. Emeleten 2. Irodában/Irodákban
+MEGATREND 5. Emeleten 2. Irodában/Irodákban
+T-SYSTEMS 6. Emeleten 4. Irodában/Irodákban
+SAFESOFT 7. Emeleten 2. Irodában/Irodákban
+BINARIS-01 8. Emeleten 3. Irodában/Irodákban
+QUENTA 9. Emeleten 3. Irodában/Irodákban
+INSERO 10. Emeleten 2. Irodában/Irodákban
+ATALANTA 11. Emeleten 2. Irodában/Irodákban
+GREENFOX 14. Emeleten 2. Irodában/Irodákban
+LOGMEIN 15. Emeleten 2. Irodában/Irodákban
+NETACAD 16. Emeleten 1. Irodában/Irodákban
+GOOGLE 18. Emeleten 2. Irodában/Irodákban
+HTTP 20. Emeleten 1. Irodában/Irodákban
+HWSW 21. Emeleten 1. Irodában/Irodákban
+COMPUTERWORLD 22. Emeleten 2. Irodában/Irodákban
+PCWORLD 23. Emeleten 4. Irodában/Irodákban
+LINKEDIN 24. Emeleten 2. Irodában/Irodákban
+MICROSOFT 25. Emeleten 4. Irodában/Irodákban
