@@ -9,35 +9,29 @@ namespace irodahaz
 {
     class Program
     {
-        static int F8(List<Iroda> i)
-        {
-            var x = i.MaxBy(d => d.IrodaLetszam.Sum()).Sorszam;
-            return x;
-        }
+        static int F8(List<Iroda> i) => i.MaxBy(d => d.IrodaLetszam.Sum()).Sorszam;
 
-        static Iroda F9(List<Iroda> i)
-        {
-            var x = i.First(d => d.IrodaLetszam.Contains(9));
-            return x;
-        }
+        static Iroda F9(List<Iroda> i) => i.First(d => d.IrodaLetszam.Contains(9));
 
-        static int F10(List<Iroda> i)
-        {
-            var x = i.Sum(d => d.IrodaLetszam.Where(dd => dd > 5).Count());
-            return x;
-        }
+        static int F10(List<Iroda> i) => i.Sum(d => d.IrodaLetszam.Where(dd => dd > 5).Count());
 
         static IEnumerable<Iroda> F11(List<Iroda> i)
         {
             var x = i.Where(d => d.IrodaLetszam.Contains(0)).ToList();
+            //var f11 = new List<Iroda>();
+            //for (int i = 0; i < x.Count; i++)
+            //{
+            //    if ()
+            //    {
+
+            //    }
+            //}
             return x;
         }
 
-        static double F12(List<Iroda> i)
-        {
-            var x = i.Where(d => d.Id == ("LOGMEIN")).Average(dd => dd.IrodaLetszam.Sum());
-            return x;
-        }
+        static double F12(List<Iroda> i) => i.Where(d => d.Id == ("LOGMEIN")).Average(dd => dd.IrodaLetszam.Sum());
+
+        static int F13(List<Iroda> i) => i.Sum(d => d.IrodaLetszam.Count());
 
         public static void Main(string[] args)
         {
@@ -81,10 +75,19 @@ namespace irodahaz
             Console.WriteLine($"Az átlagos dolgozók száma: {F12(irodak)}");
 
             //13. feladat
-            
+
+            sw11.WriteLine();
+            //var f13 = irodak.Select(i => i.IrodaLetszam);
+
+            //foreach (var i in irodak)
+            //{
+            //    sw11.WriteLine($"{i.Sorszam}. Emelet | {.Count()} dolgozó");
+            //}
 
             sw11.Close();
 
+            Console.WriteLine("14. feladat");
+            Console.WriteLine($"Az irodaházban összesen {F13(irodak)} ember dolgozik.");
         }
         
     }
